@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Akbare Sekuwa & Restro — Premium charcoal BBQ and sekuwa restaurant in Chitwan, Nepal." />
+  <meta name="keywords" content="Akbare Sekuwa, restaurant Chitwan, BBQ Nepal, sekuwa Bharatpur, charcoal grill Nepal" />
+  <meta property="og:title" content="Akbare Sekuwa & Restro | Chitwan, Nepal" />
+  <meta property="og:description" content="Nepal's finest charcoal sekuwa experience in Chitwan. Authentic sal-wood-fired cuisine in a luxury setting." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:image" content="favicon-192.png" />
+  <meta property="og:image:width" content="192" />
+  <meta property="og:image:height" content="192" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Akbare Sekuwa & Restro | Chitwan, Nepal" />
+  <meta name="twitter:description" content="Nepal's finest charcoal sekuwa in Chitwan. Sal-wood-fired, soul-deep flavour." />
+  <meta name="twitter:image" content="favicon-192.png" />
+  <title>Akbare Sekuwa &amp; Restro | Chitwan, Nepal</title>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Akbare Sekuwa & Restro",
+    "description": "Premium charcoal BBQ and sekuwa restaurant in Chitwan, Nepal.",
+    "telephone": "+977-9855015317",
+    "email": "Akbaresekuwa@gmail.com",
+    "sameAs": [
+      "https://www.facebook.com/akbarerestro",
+      "https://www.instagram.com/akbarerestro/",
+      "https://www.tiktok.com/@akbarerestro"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Buddhachowk, Bharatpur-7",
+      "addressLocality": "Chitwan",
+      "addressCountry": "NP"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 27.66502732428003,
+      "longitude": 84.42162161023091
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "11:00",
+      "closes": "22:00"
+    }],
+    "servesCuisine": ["Nepali","BBQ","Sekuwa","Grilled"],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "312"
+    }
+  }
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Non-blocking font load -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </noscript>
+</head>
+<body>
+
+  <!-- GRAIN OVERLAY -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- SCROLL PROGRESS -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ==================== LOADER ==================== -->
+  <div id="loader" class="loader">
+    <div class="loader__inner">
+      <div class="loader__logo-wrap">
+        <img src="akbare.png" alt="Akbare Sekuwa &amp; Restro" class="loader__logo-img" />
+      </div>
+      <div class="loader__flames" aria-hidden="true">
+        <span class="loader__flame loader__flame--1"></span>
+        <span class="loader__flame loader__flame--2"></span>
+        <span class="loader__flame loader__flame--3"></span>
+      </div>
+      <h1 class="loader__title">Akbare</h1>
+      <div class="loader__divider"></div>
+      <p class="loader__sub">Sekuwa &amp; Restro</p>
+      <p class="loader__location">Chitwan, Nepal</p>
+      <div class="loader__bar-wrap"><div class="loader__bar"></div></div>
+    </div>
+  </div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <a href="#hero" class="navbar__brand">
+      <img class="navbar__logo-img" src="akbare.png" alt="Akbare logo" />
+      <span>Akbare</span>
+    </a>
+
+    <nav class="navbar__nav" id="navMenu">
+      <a href="#features" class="navbar__link" data-en="Experience" data-np="अनुभव">Experience</a>
+      <button class="navbar__link navbar__menu-trigger" id="navMenuTrigger" data-en="Menu" data-np="मेनु">Menu</button>
+      <a href="#gallery" class="navbar__link" data-en="Gallery" data-np="ग्यालेरी">Gallery</a>
+      <a href="#about" class="navbar__link" data-en="Our Story" data-np="हाम्रो कथा">Our Story</a>
+      <a href="#greviews" class="navbar__link" data-en="Reviews" data-np="समीक्षाहरू">Reviews</a>
+      <a href="#reservation" class="navbar__link" data-en="Reserve" data-np="बुक गर्नुस्">Reserve</a>
+      <a href="#find-us" class="navbar__link" data-en="Find Us" data-np="हामीलाई भेट्नुस्">Find Us</a>
+    </nav>
+
+    <a href="#reservation" class="btn btn--gold navbar__cta" data-en="Book Table" data-np="टेबल बुक गर्नुस्">Book Table</a>
+    <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <!-- VIDEO BACKGROUND: Replace hero-video.mp4 with your own charcoal/sekuwa video -->
+    <div class="hero__video-wrap" aria-hidden="true">
+      <video class="hero__video" id="heroVideo" autoplay muted loop playsinline poster="">
+        <!-- <source src="hero-video.mp4" type="video/mp4"> -->
+      </video>
+      <div class="hero__video-upload" id="heroVideoUpload" title="Click to upload a background video">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.899L15 14M3 8a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>
+        <span>Upload hero video or photo</span>
+        <small>MP4 video · or JPG/PNG image · loops silently</small>
+        <input type="file" id="heroVideoInput" accept="video/*,image/*" style="display:none">
+      </div>
+    </div>
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__smoke" aria-hidden="true">
+      <div class="smoke-wisp smoke-wisp--1"></div>
+      <div class="smoke-wisp smoke-wisp--2"></div>
+      <div class="smoke-wisp smoke-wisp--3"></div>
+      <div class="smoke-wisp smoke-wisp--4"></div>
+      <div class="smoke-wisp smoke-wisp--5"></div>
+    </div>
+    <div class="hero__watermark" aria-hidden="true"><img src="akbare.png" alt="" /></div>
+    <div class="hero__particles">
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-en="&#8212; Est. Chitwan, Nepal &#8212;" data-np="&#8212; स्थापित, चितवन, नेपाल &#8212;">&#8212; Est. Chitwan, Nepal &#8212;</p>
+      <h1 class="hero__headline">
+        <div class="hero__headline-line"><div class="hero__headline-clip" data-en="Where Flame" data-np="जहाँ आगो">Where Flame</div></div>
+        <div class="hero__headline-line"><div class="hero__headline-clip" data-en="Meets Flavor" data-np="स्वादसँग मिल्छ"><em class="shimmer-text">Meets Flavor</em></div></div>
+      </h1>
+      <p class="hero__sub" aria-live="polite"></p>
+      <div class="hero__actions">
+        <button class="btn btn--gold" id="heroMenuBtn">View Menu</button>
+        <a href="#reservation" class="btn btn--outline">Reserve Table</a>
+      </div>
+      <div class="hero__rating">
+        <div class="hero__stars" aria-label="4.8 out of 5 stars">
+          <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+        </div>
+        <span class="hero__rating-text">4.8 &middot; 312 Reviews</span>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span class="hero__scroll-text">Scroll</span>
+      <div class="hero__scroll-bar"></div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURES ==================== -->
+  <section class="features" id="features">
+    <p class="section-label reveal">The Akbare Difference</p>
+    <div class="features__grid">
+
+      <article class="feature-card reveal">
+        <div class="feature-card__glow"></div>
+        <div class="feature-card__icon">
+          <svg viewBox="0 0 48 48" fill="none">
+            <path d="M24 6C24 6 14 17 14 27C14 32.5 18.5 37 24 37C29.5 37 34 32.5 34 27C34 17 24 6 24 6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M24 20C24 20 19 26 19 30C19 32.8 21.2 35 24 35C26.8 35 29 32.8 29 30C29 26 24 20 24 20Z" fill="currentColor" opacity="0.25"/>
+            <line x1="24" y1="37" x2="24" y2="43" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="18" y1="43" x2="30" y2="43" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="feature-card__title">Akbare — The Hottest Chilli</h3>
+        <p class="feature-card__desc">Named after Nepal's fieriest round chilli, Akbare is our soul and secret. Every dish carries its bold heat — a flavour so iconic, it became our identity.</p>
+        <div class="feature-card__line"></div>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-card__glow"></div>
+        <div class="feature-card__icon">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="20" r="9" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M15 35C15 35 18 31 24 31C30 31 33 35 33 35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M24 11V8M16 15L13 12M32 15L35 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="feature-card__title">Fresh Ingredients</h3>
+        <p class="feature-card__desc">Sourced daily from Chitwan's local farms. Premium cuts, hand-picked herbs, and ancestral spice blends — no compromises, ever.</p>
+        <div class="feature-card__line"></div>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-card__glow"></div>
+        <div class="feature-card__icon">
+          <svg viewBox="0 0 48 48" fill="none">
+            <path d="M10 38V22L24 13L38 22V38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="18" y="28" width="12" height="10" rx="1" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M21 28V25C21 23.3 22.3 22 24 22C25.7 22 27 23.3 27 25V28" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h3 class="feature-card__title">Family Dining</h3>
+        <p class="feature-card__desc">Warm corners, intimate tables, and portions crafted for sharing. A sanctuary where stories are born around the golden flame.</p>
+        <div class="feature-card__line"></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ==================== DISHES ==================== -->
+  <section class="dishes" id="dishes">
+    <div class="section-smoke" aria-hidden="true">
+      <div class="smoke-wisp smoke-wisp--a"></div>
+      <div class="smoke-wisp smoke-wisp--b"></div>
+      <div class="smoke-wisp smoke-wisp--c"></div>
+    </div>
+    <p class="section-label reveal">Signature Collection</p>
+    <h2 class="section-title reveal">Our <em class="shimmer-text">Masterpieces</em></h2>
+    <p class="section-sub reveal">Crafted with precision. Served with pride.</p>
+
+    <div class="dishes__grid">
+
+      <article class="dish-card reveal">
+        <div class="dish-card__img-wrap">
+          <div class="dish-card__img" style="background:linear-gradient(135deg,#1a0a00 0%,#3d1200 40%,#8B0000 70%,#c04000 100%);">
+            <div class="dish-card__heat" aria-hidden="true"></div>
+            <div class="dish-card__img-overlay">
+              <svg viewBox="0 0 80 80" fill="none">
+                <ellipse cx="40" cy="55" rx="28" ry="8" fill="#D4AF37" opacity="0.15"/>
+                <path d="M25 50 Q30 30 40 20 Q50 30 55 50 Q50 58 40 60 Q30 58 25 50Z" fill="#8B0000" opacity="0.7"/>
+                <path d="M32 48 Q35 35 40 28 Q45 35 48 48 Q45 53 40 55 Q35 53 32 48Z" fill="#D4AF37" opacity="0.4"/>
+              </svg>
+            </div>
+            <label class="dish-photo-upload" title="Upload food photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg><span>Add Photo</span><input type="file" accept="image/*" class="dish-photo-input" style="display:none"></label>
+          </div>
+          <div class="dish-card__badge">Chef's Pick</div>
+        </div>
+        <div class="dish-card__body">
+          <h3 class="dish-card__title">Royal Sekuwa Platter</h3>
+          <p class="dish-card__desc">Marinated in 12-spice blend, slow-cooked over Sal wood charcoal. Served with house chimichurri and grilled seasonal vegetables.</p>
+          <div class="dish-card__footer">
+            <span class="dish-card__price">NPR 1,800</span>
+            <span class="dish-card__tag">Signature</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish-card reveal">
+        <div class="dish-card__img-wrap">
+          <div class="dish-card__img" style="background:linear-gradient(135deg,#0d0500 0%,#2b1000 40%,#6b3010 70%,#a05020 100%);">
+            <div class="dish-card__heat" aria-hidden="true"></div>
+            <div class="dish-card__img-overlay">
+              <svg viewBox="0 0 80 80" fill="none">
+                <ellipse cx="40" cy="58" rx="26" ry="7" fill="#D4AF37" opacity="0.12"/>
+                <path d="M20 55 Q25 35 40 22 Q55 35 60 55 Q55 65 40 68 Q25 65 20 55Z" fill="#6b2010" opacity="0.8"/>
+                <circle cx="40" cy="44" r="12" fill="#D4AF37" opacity="0.25"/>
+              </svg>
+            </div>
+            <label class="dish-photo-upload" title="Upload food photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg><span>Add Photo</span><input type="file" accept="image/*" class="dish-photo-input" style="display:none"></label>
+          </div>
+        </div>
+        <div class="dish-card__body">
+          <h3 class="dish-card__title">Mutton Akbare Special</h3>
+          <p class="dish-card__desc">Bone-in mutton leg, rubbed with saffron &amp; cumin paste, char-grilled to juicy perfection. A Chitwan classic, royally reinvented.</p>
+          <div class="dish-card__footer">
+            <span class="dish-card__price">NPR 2,200</span>
+            <span class="dish-card__tag">Premium</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish-card reveal">
+        <div class="dish-card__img-wrap">
+          <div class="dish-card__img" style="background:linear-gradient(135deg,#0a0800 0%,#2a2000 40%,#705010 70%,#c08030 100%);">
+            <div class="dish-card__heat" aria-hidden="true"></div>
+            <div class="dish-card__img-overlay">
+              <svg viewBox="0 0 80 80" fill="none">
+                <ellipse cx="40" cy="57" rx="25" ry="7" fill="#D4AF37" opacity="0.15"/>
+                <path d="M22 52 Q28 30 40 20 Q52 30 58 52 Q52 62 40 64 Q28 62 22 52Z" fill="#8B5010" opacity="0.7"/>
+                <path d="M30 50 Q34 36 40 28 Q46 36 50 50 Q46 56 40 58 Q34 56 30 50Z" fill="#D4AF37" opacity="0.3"/>
+              </svg>
+            </div>
+            <label class="dish-photo-upload" title="Upload food photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg><span>Add Photo</span><input type="file" accept="image/*" class="dish-photo-input" style="display:none"></label>
+          </div>
+        </div>
+        <div class="dish-card__body">
+          <h3 class="dish-card__title">Charcoal Whole Chicken</h3>
+          <p class="dish-card__desc">Farm-raised chicken, marinated overnight in yogurt &amp; Himalayan herbs, roasted whole over live charcoal until gloriously golden.</p>
+          <div class="dish-card__footer">
+            <span class="dish-card__price">NPR 1,400</span>
+            <span class="dish-card__tag">Bestseller</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="dishes__cta reveal">
+      <button class="btn btn--outline" id="viewFullMenuBtn">
+        Explore Full Menu
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY ==================== -->
+  <section class="gallery" id="gallery">
+    <div class="section-smoke section-smoke--light" aria-hidden="true">
+      <div class="smoke-wisp smoke-wisp--a"></div>
+      <div class="smoke-wisp smoke-wisp--c"></div>
+    </div>
+    <p class="section-label reveal">Visual Story</p>
+    <h2 class="section-title reveal">A Feast for <em class="shimmer-text">the Eyes</em></h2>
+    <p class="section-sub reveal">Real fire. Real flavour. Real Akbare.</p>
+
+    <div class="gallery__grid reveal">
+      <!-- Large feature image -->
+      <div class="gallery__item gallery__item--large" data-label="Royal Sekuwa Platter">
+        <div class="gallery__img" style="background: radial-gradient(ellipse at 30% 40%, #6b1500 0%, #3a0800 40%, #1a0400 80%, #0a0200 100%);">
+          <div class="gallery__fire-overlay"></div>
+          <svg class="gallery__dish-art" viewBox="0 0 220 180" fill="none">
+            <ellipse cx="110" cy="155" rx="90" ry="14" fill="#D4AF37" opacity="0.08"/>
+            <!-- Plate -->
+            <ellipse cx="110" cy="135" rx="88" ry="18" fill="#1a0800" opacity="0.9"/>
+            <ellipse cx="110" cy="130" rx="82" ry="14" fill="#2a1000" opacity="0.8"/>
+            <!-- Meat skewers -->
+            <rect x="52" y="48" width="6" height="88" rx="3" fill="#8B4513" opacity="0.9" transform="rotate(-15 55 92)"/>
+            <rect x="78" y="40" width="6" height="92" rx="3" fill="#7B3C0F" opacity="0.9" transform="rotate(-5 81 86)"/>
+            <rect x="104" y="38" width="6" height="94" rx="3" fill="#8B4513" opacity="0.9" transform="rotate(5 107 85)"/>
+            <rect x="130" y="40" width="6" height="92" rx="3" fill="#7B3C0F" opacity="0.9" transform="rotate(15 133 86)"/>
+            <!-- Meat chunks -->
+            <ellipse cx="60" cy="68" rx="14" ry="10" fill="#8B2500" opacity="0.95" transform="rotate(-15 60 68)"/>
+            <ellipse cx="60" cy="88" rx="13" ry="9" fill="#A03000" opacity="0.9" transform="rotate(-15 60 88)"/>
+            <ellipse cx="60" cy="108" rx="14" ry="10" fill="#8B2500" opacity="0.95" transform="rotate(-15 60 108)"/>
+            <ellipse cx="84" cy="60" rx="14" ry="10" fill="#A03000" opacity="0.9" transform="rotate(-5 84 60)"/>
+            <ellipse cx="84" cy="82" rx="13" ry="9" fill="#8B2500" opacity="0.95" transform="rotate(-5 84 82)"/>
+            <ellipse cx="84" cy="104" rx="14" ry="10" fill="#A03000" opacity="0.9" transform="rotate(-5 84 104)"/>
+            <ellipse cx="110" cy="58" rx="14" ry="10" fill="#8B2500" opacity="0.95" transform="rotate(5 110 58)"/>
+            <ellipse cx="110" cy="80" rx="13" ry="9" fill="#A03000" opacity="0.9" transform="rotate(5 110 80)"/>
+            <ellipse cx="110" cy="102" rx="14" ry="10" fill="#8B2500" opacity="0.95" transform="rotate(5 110 102)"/>
+            <ellipse cx="136" cy="60" rx="14" ry="10" fill="#A03000" opacity="0.9" transform="rotate(15 136 60)"/>
+            <ellipse cx="136" cy="82" rx="13" ry="9" fill="#8B2500" opacity="0.95" transform="rotate(15 136 82)"/>
+            <ellipse cx="136" cy="104" rx="14" ry="10" fill="#A03000" opacity="0.9" transform="rotate(15 136 104)"/>
+            <!-- Char marks -->
+            <ellipse cx="60" cy="68" rx="6" ry="3" fill="#2a0800" opacity="0.6" transform="rotate(-15 60 68)"/>
+            <ellipse cx="110" cy="58" rx="6" ry="3" fill="#2a0800" opacity="0.6" transform="rotate(5 110 58)"/>
+            <ellipse cx="136" cy="82" rx="6" ry="3" fill="#2a0800" opacity="0.6" transform="rotate(15 136 82)"/>
+            <!-- Garnish -->
+            <ellipse cx="168" cy="118" rx="18" ry="12" fill="#1a4a0a" opacity="0.8"/>
+            <ellipse cx="50" cy="122" rx="16" ry="10" fill="#1a4a0a" opacity="0.7"/>
+            <!-- Sauce drizzle -->
+            <path d="M88 125 Q110 118 132 125" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="gallery__caption">
+          <span>Royal Sekuwa Platter</span>
+          <small>Chef's Signature</small>
+        </div>
+      </div>
+
+      <!-- Top right: Charcoal grill -->
+      <div class="gallery__item" data-label="Live Charcoal Grill">
+        <div class="gallery__img" style="background: radial-gradient(ellipse at 50% 70%, #3d0a00 0%, #1a0500 50%, #0a0200 100%);">
+          <div class="gallery__fire-overlay gallery__fire-overlay--hot"></div>
+          <svg class="gallery__dish-art" viewBox="0 0 180 160" fill="none">
+            <!-- Grill grate -->
+            <rect x="18" y="90" width="144" height="8" rx="2" fill="#1a1a1a" opacity="0.95"/>
+            <line x1="18" y1="94" x2="162" y2="94" stroke="#333" stroke-width="1.5"/>
+            <line x1="36" y1="82" x2="36" y2="110" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="60" y1="80" x2="60" y2="110" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="84" y1="80" x2="84" y2="110" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="108" y1="80" x2="108" y2="110" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="132" y1="82" x2="132" y2="110" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+            <!-- Meat on grill -->
+            <rect x="26" y="74" width="34" height="18" rx="4" fill="#8B2500" opacity="0.95"/>
+            <rect x="28" y="76" width="30" height="4" rx="1" fill="#2a0800" opacity="0.5"/>
+            <rect x="70" y="72" width="38" height="20" rx="4" fill="#A03000" opacity="0.9"/>
+            <rect x="72" y="74" width="34" height="4" rx="1" fill="#2a0800" opacity="0.5"/>
+            <rect x="116" y="74" width="34" height="18" rx="4" fill="#8B2500" opacity="0.95"/>
+            <rect x="118" y="76" width="30" height="4" rx="1" fill="#2a0800" opacity="0.5"/>
+            <!-- Flames under grill -->
+            <path d="M30 105 Q35 118 40 108 Q45 120 50 107" stroke="#e67e22" stroke-width="2" fill="none" opacity="0.8" stroke-linecap="round"/>
+            <path d="M70 106 Q76 122 82 109 Q88 124 94 108" stroke="#f39c12" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round"/>
+            <path d="M115 105 Q120 120 126 107 Q132 122 138 106" stroke="#e67e22" stroke-width="2" fill="none" opacity="0.8" stroke-linecap="round"/>
+            <!-- Smoke wisps -->
+            <path d="M43 72 Q46 62 43 52 Q46 42 44 34" stroke="rgba(200,200,200,0.15)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <path d="M89 70 Q92 58 89 46 Q92 36 90 26" stroke="rgba(200,200,200,0.12)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <path d="M133 72 Q136 60 133 50 Q136 40 134 30" stroke="rgba(200,200,200,0.15)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="gallery__caption">
+          <span>Live Charcoal Grill</span>
+          <small>Sal Wood Fire</small>
+        </div>
+      </div>
+
+      <!-- Middle right: Whole Chicken -->
+      <div class="gallery__item" data-label="Charcoal Whole Chicken">
+        <div class="gallery__img" style="background: radial-gradient(ellipse at 40% 40%, #4a2800 0%, #2a1400 50%, #0e0600 100%);">
+          <svg class="gallery__dish-art" viewBox="0 0 180 160" fill="none">
+            <ellipse cx="90" cy="148" rx="72" ry="10" fill="#D4AF37" opacity="0.07"/>
+            <!-- Plate -->
+            <ellipse cx="90" cy="136" rx="70" ry="14" fill="#1a0a00" opacity="0.9"/>
+            <ellipse cx="90" cy="130" rx="64" ry="10" fill="#2a1200" opacity="0.7"/>
+            <!-- Chicken body -->
+            <ellipse cx="90" cy="100" rx="46" ry="36" fill="#c8681e" opacity="0.95"/>
+            <ellipse cx="90" cy="96" rx="40" ry="30" fill="#d4751e" opacity="0.9"/>
+            <!-- Char/crispy skin -->
+            <ellipse cx="78" cy="88" rx="10" ry="7" fill="#7B3500" opacity="0.6"/>
+            <ellipse cx="104" cy="92" rx="8" ry="6" fill="#7B3500" opacity="0.5"/>
+            <ellipse cx="90" cy="112" rx="12" ry="5" fill="#9B4500" opacity="0.4"/>
+            <!-- Golden glaze -->
+            <ellipse cx="82" cy="84" rx="7" ry="5" fill="#D4AF37" opacity="0.25"/>
+            <ellipse cx="100" cy="88" rx="5" ry="4" fill="#D4AF37" opacity="0.2"/>
+            <!-- Drumstick legs -->
+            <ellipse cx="60" cy="118" rx="10" ry="18" fill="#c8681e" opacity="0.95" transform="rotate(-30 60 118)"/>
+            <rect x="54" y="128" width="5" height="14" rx="2" fill="#8B4513" opacity="0.9" transform="rotate(-30 56 135)"/>
+            <ellipse cx="120" cy="118" rx="10" ry="18" fill="#c8681e" opacity="0.95" transform="rotate(30 120 118)"/>
+            <rect x="121" y="128" width="5" height="14" rx="2" fill="#8B4513" opacity="0.9" transform="rotate(30 124 135)"/>
+            <!-- Herbs garnish -->
+            <path d="M30 122 Q38 110 46 118 Q40 128 30 122Z" fill="#1a5010" opacity="0.8"/>
+            <path d="M134 122 Q142 110 150 118 Q144 128 134 122Z" fill="#1a5010" opacity="0.8"/>
+            <path d="M70 128 Q76 120 82 126" stroke="#2a6818" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+            <path d="M98 128 Q104 120 110 126" stroke="#2a6818" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+          </svg>
+        </div>
+        <div class="gallery__caption">
+          <span>Charcoal Whole Chicken</span>
+          <small>Bestseller</small>
+        </div>
+      </div>
+
+      <!-- Bottom left: Mutton Special -->
+      <div class="gallery__item" data-label="Mutton Akbare Special">
+        <div class="gallery__img" style="background: radial-gradient(ellipse at 60% 50%, #5a1a00 0%, #2a0c00 50%, #0d0400 100%);">
+          <svg class="gallery__dish-art" viewBox="0 0 180 160" fill="none">
+            <ellipse cx="90" cy="150" rx="70" ry="10" fill="#D4AF37" opacity="0.06"/>
+            <!-- Plate shadow -->
+            <ellipse cx="90" cy="138" rx="68" ry="13" fill="#180800" opacity="0.85"/>
+            <!-- Mutton leg - bone -->
+            <rect x="64" y="28" width="10" height="98" rx="5" fill="#d4c8a0" opacity="0.7" transform="rotate(12 69 77)"/>
+            <!-- Meat around bone -->
+            <ellipse cx="96" cy="88" rx="42" ry="34" fill="#8B2500" opacity="0.95"/>
+            <ellipse cx="90" cy="82" rx="36" ry="28" fill="#A03200" opacity="0.9"/>
+            <!-- Char marks -->
+            <path d="M72 72 Q80 78 88 72" stroke="#2a0800" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+            <path d="M80 88 Q90 94 100 88" stroke="#2a0800" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+            <path d="M88 104 Q98 108 108 104" stroke="#2a0800" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+            <!-- Spice crust -->
+            <circle cx="76" cy="80" r="4" fill="#c04000" opacity="0.8"/>
+            <circle cx="92" cy="74" r="3" fill="#d4af37" opacity="0.4"/>
+            <circle cx="108" cy="82" r="4" fill="#c04000" opacity="0.7"/>
+            <circle cx="84" cy="96" r="3" fill="#8B0000" opacity="0.6"/>
+            <!-- Sauce pool -->
+            <ellipse cx="90" cy="128" rx="54" ry="8" fill="#6b1800" opacity="0.6"/>
+            <!-- Herbs -->
+            <path d="M36 120 Q44 110 52 118" stroke="#2a6818" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+            <path d="M128 118 Q136 108 144 116" stroke="#2a6818" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+          </svg>
+        </div>
+        <div class="gallery__caption">
+          <span>Mutton Akbare Special</span>
+          <small>Premium</small>
+        </div>
+      </div>
+
+      <!-- Bottom right: Smoked Lemonade drink -->
+      <div class="gallery__item" data-label="Smoked Lemonade">
+        <div class="gallery__img" style="background: radial-gradient(ellipse at 50% 30%, #1a1a00 0%, #0e0e00 50%, #060606 100%);">
+          <svg class="gallery__dish-art" viewBox="0 0 180 160" fill="none">
+            <!-- Glass shadow -->
+            <ellipse cx="90" cy="148" rx="36" ry="8" fill="#D4AF37" opacity="0.08"/>
+            <!-- Glass body -->
+            <path d="M62 42 L56 140 Q56 148 90 148 Q124 148 124 140 L118 42 Z" fill="#1a2a0a" opacity="0.4"/>
+            <path d="M64 42 L58 138 Q58 146 90 146 Q122 146 122 138 L116 42 Z" fill="rgba(180,220,80,0.12)"/>
+            <!-- Liquid -->
+            <path d="M65 70 L59 138 Q59 145 90 145 Q121 145 121 138 L115 70 Z" fill="rgba(200,220,50,0.25)"/>
+            <!-- Bubbles -->
+            <circle cx="76" cy="110" r="3" fill="rgba(255,255,200,0.3)"/>
+            <circle cx="96" cy="98" r="2" fill="rgba(255,255,200,0.25)"/>
+            <circle cx="108" cy="118" r="2.5" fill="rgba(255,255,200,0.2)"/>
+            <circle cx="82" cy="128" r="2" fill="rgba(255,255,200,0.25)"/>
+            <!-- Ice cubes -->
+            <rect x="72" y="88" width="18" height="16" rx="3" fill="rgba(220,240,255,0.35)" transform="rotate(-10 81 96)"/>
+            <rect x="96" y="104" width="16" height="14" rx="3" fill="rgba(220,240,255,0.3)" transform="rotate(8 104 111)"/>
+            <!-- Mint leaves -->
+            <path d="M80 58 Q72 46 80 38 Q88 46 80 58Z" fill="#2a6818" opacity="0.9"/>
+            <path d="M90 56 Q82 44 90 36 Q98 44 90 56Z" fill="#1a5010" opacity="0.85"/>
+            <path d="M100 58 Q92 46 100 38 Q108 46 100 58Z" fill="#2a6818" opacity="0.8"/>
+            <!-- Straw -->
+            <rect x="104" y="32" width="4" height="80" rx="2" fill="#D4AF37" opacity="0.7" transform="rotate(8 106 72)"/>
+            <!-- Lemon slice on rim -->
+            <circle cx="66" cy="56" r="12" fill="#e8c820" opacity="0.6"/>
+            <circle cx="66" cy="56" r="9" fill="#f0d040" opacity="0.5"/>
+            <line x1="66" y1="47" x2="66" y2="65" stroke="#c8a820" stroke-width="1" opacity="0.5"/>
+            <line x1="57" y1="56" x2="75" y2="56" stroke="#c8a820" stroke-width="1" opacity="0.5"/>
+            <!-- Glass rim highlight -->
+            <path d="M62 42 L118 42" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-linecap="round"/>
+            <!-- Smoke wisps -->
+            <path d="M85 36 Q88 26 85 18" stroke="rgba(220,220,220,0.2)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M95 34 Q98 24 95 16" stroke="rgba(220,220,220,0.15)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="gallery__caption">
+          <span>Smoked Lemonade</span>
+          <small>Signature Drink</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery__upload-note reveal">
+      <div class="gallery__upload-inner">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        <div>
+          <p><strong>Add Your Real Photos</strong> — Replace the illustrations above with actual food photos for maximum impact. See code comments in <code>index.html</code> inside each <code>.gallery__img</code> div.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="about" id="about">
+    <div class="about__inner">
+      <div class="about__visual reveal">
+        <div class="about__frame">
+          <div class="about__img-main">
+            <div class="about__img-content">
+              <svg viewBox="0 0 160 200" fill="none">
+                <defs>
+                  <linearGradient id="aboutGrad" x1="0" y1="0" x2="160" y2="200" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#1a0500"/>
+                    <stop offset="50%" stop-color="#8B0000"/>
+                    <stop offset="100%" stop-color="#3d1200"/>
+                  </linearGradient>
+                </defs>
+                <rect width="160" height="200" fill="url(#aboutGrad)"/>
+                <path d="M80 30C80 30 50 65 50 95C50 111.6 63.4 125 80 125C96.6 125 110 111.6 110 95C110 65 80 30 80 30Z" fill="#D4AF37" opacity="0.2"/>
+                <path d="M80 60C80 60 65 82 65 97C65 105.3 71.7 112 80 112C88.3 112 95 105.3 95 97C95 82 80 60 80 60Z" fill="#D4AF37" opacity="0.4"/>
+                <circle cx="80" cy="155" r="18" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+                <line x1="80" y1="125" x2="80" y2="137" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+              </svg>
+            </div>
+          </div>
+          <div class="about__quote-box">
+            <p>&#8220;Fire is our oldest ingredient.&#8221;</p>
+          </div>
+        </div>
+      </div>
+      <div class="about__text reveal">
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Born from<br /><em class="shimmer-text">Smoke &amp; Passion</em></h2>
+        <p class="about__para">Akbare Sekuwa &amp; Restro was forged in the heart of Chitwan — a land of wilderness and warmth. What began as a family tradition of grilling over open fire evolved into a philosophy: food cooked with real flame holds a soul that no oven can replicate.</p>
+        <p class="about__para">We source only the finest local cuts, marinate them in ancestral spice blends, and char-grill them over hardwood charcoal. The result is not merely a meal — it is an experience rooted in Nepali heritage, elevated to a premium dining art form.</p>
+        <div class="about__stats">
+          <div class="about__stat">
+            <span class="about__stat-num">12+</span>
+            <span class="about__stat-label">Years of Flame</span>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-num">50+</span>
+            <span class="about__stat-label">Signature Dishes</span>
+          </div>
+          <div class="about__stat">
+            <span class="about__stat-num">10K+</span>
+            <span class="about__stat-label">Happy Diners</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section class="testimonials" id="testimonials">
+    <div class="testimonials__inner">
+      <p class="section-label reveal">Guest Reviews</p>
+      <h2 class="section-title reveal">What Our Guests <em class="shimmer-text">Say</em></h2>
+
+      <div class="testimonials__carousel reveal">
+        <div class="testimonials__track" id="testimonialsTrack">
+
+          <article class="testi-card">
+            <div class="testi-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testi-card__quote">"The Royal Sekuwa Platter is the finest grilled meat I have tasted in Nepal. The charcoal flavour, the spice blend — it is simply unforgettable. We will be back every visit to Chitwan."</blockquote>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">R</div>
+              <div>
+                <p class="testi-card__name">Ramesh Sharma</p>
+                <p class="testi-card__loc">Kathmandu, Nepal</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testi-card__quote">"We hosted our family reunion here and the team was absolutely incredible. The whole chicken is a masterpiece — golden, smoky, and falling off the bone. The ambience felt genuinely premium."</blockquote>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">P</div>
+              <div>
+                <p class="testi-card__name">Priya Thapa</p>
+                <p class="testi-card__loc">Pokhara, Nepal</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testi-card__quote">"Akbare Sekuwa has completely redefined what I expected from a restaurant in Chitwan. The atmosphere, the service, the food — everything is 5-star. The Mutton Special is legendary."</blockquote>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">A</div>
+              <div>
+                <p class="testi-card__name">Anil KC</p>
+                <p class="testi-card__loc">Bharatpur, Chitwan</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testi-card__quote">"Came here as a tourist and this was hands-down the highlight of our Nepal trip. Real charcoal, real spices, real passion. Nothing like it back home. Every traveller visiting Chitwan must come here."</blockquote>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">S</div>
+              <div>
+                <p class="testi-card__name">Sophie Brennan</p>
+                <p class="testi-card__loc">Dublin, Ireland</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testi-card__quote">"The reservation process was smooth, the table was perfectly set, and the food arrived at exactly the right pace. This is the kind of dining experience you remember for years."</blockquote>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">D</div>
+              <div>
+                <p class="testi-card__name">Dipesh Gurung</p>
+                <p class="testi-card__loc">Butwal, Nepal</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="testimonials__controls">
+          <button class="testimonials__btn" id="testiPrev" aria-label="Previous review">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </button>
+          <div class="testimonials__dots" id="testiDots"></div>
+          <button class="testimonials__btn" id="testiNext" aria-label="Next review">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GOOGLE REVIEWS ==================== -->
+  <section class="greviews" id="greviews">
+    <div class="greviews__inner">
+      <p class="section-label reveal">Google Reviews</p>
+      <h2 class="section-title reveal"><em class="shimmer-text">4.8★</em> on Google</h2>
+      <p class="section-sub reveal">What guests are saying right now.</p>
+
+      <div class="greviews__badge reveal">
+        <div class="greviews__badge-left">
+          <img src="akbare.png" alt="Akbare" class="greviews__badge-logo"/>
+          <div>
+            <p class="greviews__badge-name">Akbare Sekuwa &amp; Restro</p>
+            <p class="greviews__badge-loc">Buddhachowk, Bharatpur, Chitwan</p>
+            <div class="greviews__badge-stars">
+              <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+              <span class="greviews__badge-score">4.8</span>
+              <span class="greviews__badge-count">· 312 reviews</span>
+            </div>
+          </div>
+        </div>
+        <a href="https://maps.app.goo.gl/Ahqh6E866HNtrWrP8" target="_blank" rel="noopener noreferrer" class="btn btn--gold greviews__cta">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+          Read All Reviews
+        </a>
+      </div>
+
+      <div class="greviews__grid">
+        <article class="greview-card reveal">
+          <div class="greview-card__header">
+            <div class="greview-card__avatar" style="background:linear-gradient(135deg,#4285F4,#34A853);">R</div>
+            <div>
+              <p class="greview-card__name">Ramesh Sharma</p>
+              <p class="greview-card__date">2 weeks ago · Google</p>
+            </div>
+            <svg class="greview-card__gicon" viewBox="0 0 24 24" width="20" height="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+          <div class="greview-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="greview-card__text">The Royal Sekuwa Platter is simply the best grilled meat in all of Chitwan. That charcoal flavour is unforgettable. We come back every time we visit.</p>
+        </article>
+
+        <article class="greview-card reveal">
+          <div class="greview-card__header">
+            <div class="greview-card__avatar" style="background:linear-gradient(135deg,#EA4335,#FBBC05);">P</div>
+            <div>
+              <p class="greview-card__name">Priya Thapa</p>
+              <p class="greview-card__date">1 month ago · Google</p>
+            </div>
+            <svg class="greview-card__gicon" viewBox="0 0 24 24" width="20" height="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+          <div class="greview-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="greview-card__text">Hosted our family reunion here — the whole chicken is a masterpiece, golden and smoky. The team was absolutely incredible. Genuinely premium experience.</p>
+        </article>
+
+        <article class="greview-card reveal">
+          <div class="greview-card__header">
+            <div class="greview-card__avatar" style="background:linear-gradient(135deg,#34A853,#4285F4);">S</div>
+            <div>
+              <p class="greview-card__name">Sophie Brennan</p>
+              <p class="greview-card__date">3 weeks ago · Google</p>
+            </div>
+            <svg class="greview-card__gicon" viewBox="0 0 24 24" width="20" height="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+          <div class="greview-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="greview-card__text">Came as a tourist and this was the highlight of our entire Nepal trip. Real charcoal, real spices, real passion. Nothing like it back home in Dublin. Every traveller MUST visit.</p>
+        </article>
+
+        <article class="greview-card reveal">
+          <div class="greview-card__header">
+            <div class="greview-card__avatar" style="background:linear-gradient(135deg,#FBBC05,#EA4335);">A</div>
+            <div>
+              <p class="greview-card__name">Anil KC</p>
+              <p class="greview-card__date">1 month ago · Google</p>
+            </div>
+            <svg class="greview-card__gicon" viewBox="0 0 24 24" width="20" height="20"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+          <div class="greview-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="greview-card__text">Akbare has completely redefined restaurant expectations in Chitwan. The atmosphere, service, and food are all 5-star. The Mutton Special is absolutely legendary.</p>
+        </article>
+      </div>
+
+      <div class="greviews__write reveal">
+        <p>Had a great experience? Share it with the world.</p>
+        <a href="https://maps.app.goo.gl/Ahqh6E866HNtrWrP8" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+          Write a Google Review
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== RESERVATION ==================== -->
+  <section class="reservation" id="reservation">
+    <div class="reservation__bg-text" aria-hidden="true">RESERVE</div>
+    <div class="reservation__inner">
+      <p class="section-label reveal">Make a Reservation</p>
+      <h2 class="section-title reveal">Claim Your <em class="shimmer-text">Evening</em></h2>
+      <p class="section-sub reveal">An experience worth planning for. Reserve your table at Akbare.</p>
+
+      <form class="res-form reveal" id="reservationForm" novalidate>
+
+        <div class="res-form__row">
+          <div class="res-form__group">
+            <label class="res-form__label" for="res-name">Full Name</label>
+            <input class="res-form__input" type="text" id="res-name" name="name" placeholder="Your full name" autocomplete="name" />
+            <span class="res-form__error" id="err-name"></span>
+          </div>
+          <div class="res-form__group">
+            <label class="res-form__label" for="res-email">Email Address</label>
+            <input class="res-form__input" type="email" id="res-email" name="email" placeholder="your@email.com" autocomplete="email" />
+            <span class="res-form__error" id="err-email"></span>
+          </div>
+        </div>
+
+        <div class="res-form__row">
+          <div class="res-form__group">
+            <label class="res-form__label" for="res-date">Preferred Date</label>
+            <input class="res-form__input" type="date" id="res-date" name="date" />
+            <span class="res-form__error" id="err-date"></span>
+          </div>
+          <div class="res-form__group">
+            <label class="res-form__label" for="res-time">Preferred Time</label>
+            <select class="res-form__input res-form__select" id="res-time" name="time">
+              <option value="">Select a time slot</option>
+              <option value="11:00 AM">11:00 AM</option>
+              <option value="12:00 PM">12:00 PM</option>
+              <option value="01:00 PM">01:00 PM</option>
+              <option value="02:00 PM">02:00 PM</option>
+              <option value="06:00 PM">06:00 PM</option>
+              <option value="07:00 PM">07:00 PM</option>
+              <option value="08:00 PM">08:00 PM</option>
+              <option value="09:00 PM">09:00 PM</option>
+            </select>
+            <span class="res-form__error" id="err-time"></span>
+          </div>
+        </div>
+
+        <div class="res-form__row res-form__row--half">
+          <div class="res-form__group">
+            <label class="res-form__label" for="res-guests">Number of Guests</label>
+            <select class="res-form__input res-form__select" id="res-guests" name="guests">
+              <option value="">Select number of guests</option>
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5">5 Guests</option>
+              <option value="6+">6+ Guests (Group Booking)</option>
+            </select>
+            <span class="res-form__error" id="err-guests"></span>
+          </div>
+        </div>
+
+        <div class="res-form__actions">
+          <button type="submit" class="btn btn--gold res-form__submit">
+            <span>Confirm Reservation</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <p class="res-form__success" id="formSuccess" aria-live="polite">
+          ✦ Reservation received! WhatsApp is opening now — your booking details are pre-filled. Just hit Send to confirm with our team instantly.
+        </p>
+        <p class="res-form__note">🔒 Your details go directly to us via WhatsApp — instant confirmation, no middleman.</p>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- ==================== FIND US ==================== -->
+  <section class="find-us" id="find-us">
+    <div class="find-us__inner">
+
+      <div class="find-us__info reveal">
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Visit <em class="shimmer-text">Akbare</em></h2>
+        <p class="find-us__desc">Located in the heart of Bharatpur, Chitwan — easily accessible from the city centre and major hotels.</p>
+
+        <ul class="find-us__details">
+          <li class="find-us__detail">
+            <div class="find-us__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+            </div>
+            <div>
+              <p class="find-us__detail-label">Address</p>
+              <p class="find-us__detail-val">Buddhachowk, Bharatpur-7, Chitwan, Nepal</p>
+            </div>
+          </li>
+          <li class="find-us__detail">
+            <div class="find-us__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.49 11.37 19.79 19.79 0 0 1 1.42 2.72 2 2 0 0 1 3.38 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.07 6.07l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            </div>
+            <div>
+              <p class="find-us__detail-label">Phone</p>
+              <p class="find-us__detail-val">+977 985-5015317</p>
+            </div>
+          </li>
+          <li class="find-us__detail">
+            <div class="find-us__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <div>
+              <p class="find-us__detail-label">Opening Hours</p>
+              <p class="find-us__detail-val">Daily &middot; 11:00 AM &#8211; 10:00 PM</p>
+            </div>
+          </li>
+          <li class="find-us__detail">
+            <div class="find-us__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <p class="find-us__detail-label">Email</p>
+              <p class="find-us__detail-val">Akbaresekuwa&#64;gmail.com</p>
+            </div>
+          </li>
+        </ul>
+
+        <a href="https://maps.app.goo.gl/Ahqh6E866HNtrWrP8" target="_blank" rel="noopener noreferrer" class="btn btn--gold find-us__directions">
+          Get Directions
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="find-us__map reveal">
+        <div class="find-us__map-frame" id="mapFrame">
+          <iframe
+            id="mapIframe"
+            title="Akbare Sekuwa & Restro — Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884.2!2d84.42162161023091!3d27.66502732428003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994fb3b7c04a195%3A0xabcdef1234567890!2sAkbare%20Sekuwa%20%26%20Restro!5e0!3m2!1sen!2snp!4v1700000000099!5m2!1sen!2snp"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <div class="find-us__map-overlay"></div>
+          <div class="find-us__map-placeholder" id="mapPlaceholder">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M24 4C16.3 4 10 10.3 10 18C10 28.5 24 44 24 44C24 44 38 28.5 38 18C38 10.3 31.7 4 24 4ZM24 23C21.2 23 19 20.8 19 18C19 15.2 21.2 13 24 13C26.8 13 29 15.2 29 18C29 20.8 26.8 23 24 23Z" fill="currentColor"/>
+            </svg>
+            <p>Buddhachowk, Bharatpur-7, Chitwan, Nepal</p>
+            <a href="https://maps.app.goo.gl/Ahqh6E866HNtrWrP8" target="_blank" rel="noopener noreferrer" class="btn btn--gold" style="font-size:0.72rem;padding:10px 22px;">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer__top">
+
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <img src="akbare.png" alt="Akbare Sekuwa &amp; Restro" class="footer__logo-img" />
+          <span>Akbare</span>
+        </div>
+        <p class="footer__tagline">Sekuwa &amp; Restro &middot; Chitwan, Nepal</p>
+        <p class="footer__desc">Where every flame tells a story and every bite carries the soul of Nepal.</p>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/akbarerestro" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="footer__social-btn footer__social-btn--fb">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/akbarerestro/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer__social-btn footer__social-btn--ig">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@akbarerestro" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="footer__social-btn footer__social-btn--tt">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.73a4.85 4.85 0 0 1-1.01-.04z"/></svg>
+          </a>
+          <a href="https://wa.me/9779855015317" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer__social-btn footer__social-btn--wa">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          </a>
+          <a href="/cdn-cgi/l/email-protection#c081aba2a1b2a5b3a5abb5b7a180a7ada1a9aceea3afad" aria-label="Email" class="footer__social-btn footer__social-btn--em">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__nav">
+        <h4>Navigate</h4>
+        <a href="#features" data-en="Experience" data-np="अनुभव">Experience</a>
+        <a href="#dishes" data-en="Menu" data-np="मेनु">Menu</a>
+        <a href="#gallery" data-en="Gallery" data-np="ग्यालेरी">Gallery</a>
+        <a href="#about" data-en="Our Story" data-np="हाम्रो कथा">Our Story</a>
+        <a href="#greviews" data-en="Reviews" data-np="समीक्षाहरू">Reviews</a>
+        <a href="#reservation" data-en="Reserve" data-np="बुक गर्नुस्">Reserve</a>
+        <a href="#find-us" data-en="Find Us" data-np="हामीलाई भेट्नुस्">Find Us</a>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>Buddhachowk, Bharatpur-7, Chitwan, Nepal</p>
+        <p>+977 985-5015317</p>
+        <p>Akbaresekuwa&#64;gmail.com</p>
+        <a href="https://maps.app.goo.gl/Ahqh6E866HNtrWrP8" target="_blank" rel="noopener noreferrer" class="footer__map-link">View on Google Maps &#8599;</a>
+        <p>Open: 11AM &#8211; 10PM Daily</p>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Akbare Sekuwa &amp; Restro. All rights reserved.</p>
+      <p>Crafted with &#128293; in Chitwan, Nepal.</p>
+    </div>
+  </footer>
+
+  <!-- ==================== WHATSAPP CHAT BUBBLE ==================== -->
+  <div class="wa-bubble" id="waBubble">
+    <button class="wa-bubble__toggle" id="waBubbleToggle" aria-label="Open WhatsApp chat" aria-expanded="false">
+      <span class="wa-bubble__icon wa-bubble__icon--open">
+        <svg viewBox="0 0 32 32" fill="currentColor" width="28" height="28">
+          <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.5L4 29l7.703-1.812A12.93 12.93 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3Zm6.406 16.594c-.27.758-1.578 1.453-2.156 1.5-.547.047-1.074.258-3.633-.758-3.09-1.23-5.063-4.375-5.219-4.578-.156-.203-1.281-1.703-1.281-3.25s.813-2.297 1.102-2.61c.289-.312.633-.391.844-.391.211 0 .422.004.605.012.195.008.457-.074.715.547.27.641.914 2.219.992 2.379.078.16.133.344.027.555-.105.21-.16.34-.316.523-.156.184-.328.41-.469.551-.156.156-.32.324-.137.637.184.312.813 1.34 1.746 2.168 1.199 1.066 2.211 1.395 2.527 1.551.316.156.5.133.688-.078.188-.211.797-.93.957-1.25.164-.32.328-.266.551-.16.223.105 1.418.672 1.664.793.246.121.406.184.469.285.062.105.062.605-.207 1.375Z"/>
+        </svg>
+      </span>
+      <span class="wa-bubble__icon wa-bubble__icon--close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="22" height="22"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </span>
+      <span class="wa-bubble__badge" id="waBadge">1</span>
+    </button>
+
+    <div class="wa-bubble__panel" id="waBubblePanel">
+      <div class="wa-bubble__header">
+        <img src="akbare.png" alt="Akbare" class="wa-bubble__logo"/>
+        <div>
+          <p class="wa-bubble__name">Akbare Sekuwa &amp; Restro</p>
+          <p class="wa-bubble__status"><span class="wa-bubble__dot"></span><span data-en="Typically replies instantly" data-np="सामान्यतया तुरुन्तै जवाफ दिन्छ">Typically replies instantly</span></p>
+        </div>
+      </div>
+      <div class="wa-bubble__body">
+        <div class="wa-bubble__msg">
+          <p data-en="👋 Namaste! Welcome to Akbare Sekuwa &amp; Restro. How can we help you today?" data-np="👋 नमस्ते! अकबरे सेकुवा &amp; रेस्ट्रोमा स्वागत छ। आज हामी कसरी सहयोग गर्न सक्छौं?">👋 Namaste! Welcome to Akbare Sekuwa &amp; Restro. How can we help you today?</p>
+          <span class="wa-bubble__time">Akbare Team</span>
+        </div>
+        <div class="wa-bubble__quick">
+          <button class="wa-bubble__quick-btn" data-msg="I'd like to make a table reservation" data-en="📅 Book a Table" data-np="📅 टेबल बुक गर्नुस्">📅 Book a Table</button>
+          <button class="wa-bubble__quick-btn" data-msg="Can I see your menu please?" data-en="🍖 View Menu" data-np="🍖 मेनु हेर्नुस्">🍖 View Menu</button>
+          <button class="wa-bubble__quick-btn" data-msg="What are your opening hours?" data-en="🕐 Opening Hours" data-np="🕐 खुल्ने समय">🕐 Opening Hours</button>
+          <button class="wa-bubble__quick-btn" data-msg="I'd like to place a takeaway order" data-en="🛵 Takeaway Order" data-np="🛵 टेकअवे अर्डर">🛵 Takeaway Order</button>
+        </div>
+      </div>
+      <a class="wa-bubble__cta" href="https://wa.me/9779855015317" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span data-en="Open WhatsApp" data-np="WhatsApp खोल्नुस्">Open WhatsApp</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ==================== FULL MENU MODAL ==================== -->
+  <div class="menu-modal" id="menuModal" role="dialog" aria-modal="true" aria-label="Full Menu" hidden>
+    <div class="menu-modal__backdrop" id="menuBackdrop"></div>
+    <div class="menu-modal__panel">
+
+      <div class="menu-modal__header">
+        <div>
+          <p class="section-label" style="margin-bottom:6px;">Akbare Sekuwa &amp; Restro</p>
+          <h2 class="menu-modal__title">Our <em class="shimmer-text">Full Menu</em></h2>
+        </div>
+        <button class="menu-modal__close" id="menuClose" aria-label="Close menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="menu-modal__tabs" role="tablist">
+        <button class="menu-tab active" data-tab="starters" role="tab" aria-selected="true">Starters</button>
+        <button class="menu-tab" data-tab="mains" role="tab" aria-selected="false">Mains</button>
+        <button class="menu-tab" data-tab="sekuwa" role="tab" aria-selected="false">Sekuwa</button>
+        <button class="menu-tab" data-tab="sides" role="tab" aria-selected="false">Sides</button>
+        <button class="menu-tab" data-tab="drinks" role="tab" aria-selected="false">Drinks</button>
+      </div>
+
+      <div class="menu-modal__body">
+
+        <div class="menu-panel active" id="tab-starters">
+          <div class="menu-items">
+            <div class="menu-item"><div class="menu-item__info"><h4>Smoked Pork Ribs</h4><p>Slow-smoked pork ribs with our signature spice rub and house BBQ glaze</p></div><span class="menu-item__price">NPR 850</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Chicken Tikka Starter</h4><p>Tender chicken marinated in yogurt &amp; aromatic spices, char-grilled</p></div><span class="menu-item__price">NPR 650</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Grilled Mushroom Platter</h4><p>Himalayan mushrooms grilled with butter, garlic and fresh herbs</p></div><span class="menu-item__price">NPR 550</span></div>
+            <div class="menu-item menu-item--featured"><div class="menu-item__info"><h4>Akbare Mixed Starter <span class="menu-item__badge">Popular</span></h4><p>A selection of our finest starters &#8212; perfect for sharing</p></div><span class="menu-item__price">NPR 1,200</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Charcoal Corn Cob</h4><p>Sweet corn roasted over charcoal with chilli butter and lime</p></div><span class="menu-item__price">NPR 350</span></div>
+          </div>
+        </div>
+
+        <div class="menu-panel" id="tab-mains">
+          <div class="menu-items">
+            <div class="menu-item menu-item--featured"><div class="menu-item__info"><h4>Royal Sekuwa Platter <span class="menu-item__badge">Chef's Pick</span></h4><p>Marinated in 12-spice blend, slow-cooked over Sal wood charcoal</p></div><span class="menu-item__price">NPR 1,800</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Mutton Akbare Special</h4><p>Bone-in mutton leg, rubbed with saffron &amp; cumin, char-grilled</p></div><span class="menu-item__price">NPR 2,200</span></div>
+            <div class="menu-item menu-item--featured"><div class="menu-item__info"><h4>Charcoal Whole Chicken <span class="menu-item__badge">Bestseller</span></h4><p>Farm-raised chicken, Himalayan herbs, roasted whole over live charcoal</p></div><span class="menu-item__price">NPR 1,400</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Lamb Shoulder Roast</h4><p>Slow-roasted lamb shoulder with rosemary, garlic and lemon</p></div><span class="menu-item__price">NPR 2,400</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Buff Sekuwa (Half Kg)</h4><p>Classic Nepali buff sekuwa with timur-spiced dipping sauce</p></div><span class="menu-item__price">NPR 980</span></div>
+          </div>
+        </div>
+
+        <div class="menu-panel" id="tab-sekuwa">
+          <div class="menu-items">
+            <div class="menu-item menu-item--featured"><div class="menu-item__info"><h4>Chicken Sekuwa (Full) <span class="menu-item__badge">Bestseller</span></h4><p>Whole chicken marinated in yogurt &amp; Himalayan spice blend</p></div><span class="menu-item__price">NPR 1,400</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Mutton Sekuwa (Half Kg)</h4><p>Premium mutton on skewers, charcoal-grilled with timur seasoning</p></div><span class="menu-item__price">NPR 1,200</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Buff Sekuwa (Half Kg)</h4><p>Classic Nepali buff sekuwa with house achar</p></div><span class="menu-item__price">NPR 980</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Pork Sekuwa (Half Kg)</h4><p>Hilly-style pork sekuwa with Sichuan pepper and fresh ginger</p></div><span class="menu-item__price">NPR 1,050</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Mixed Sekuwa Platter</h4><p>A royal mix of chicken, mutton and buff sekuwa for the table</p></div><span class="menu-item__price">NPR 2,800</span></div>
+          </div>
+        </div>
+
+        <div class="menu-panel" id="tab-sides">
+          <div class="menu-items">
+            <div class="menu-item"><div class="menu-item__info"><h4>Grilled Seasonal Vegetables</h4><p>Charcoal-grilled seasonal vegetables with olive oil and herbs</p></div><span class="menu-item__price">NPR 380</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Garlic Butter Naan</h4><p>Fresh naan brushed with garlic butter, baked in clay oven</p></div><span class="menu-item__price">NPR 180</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Steamed Rice</h4><p>Fragrant Terai basmati rice, steamed to perfection</p></div><span class="menu-item__price">NPR 200</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>House Achar Platter</h4><p>Three seasonal achars &#8212; tomato, sesame, and gundruk</p></div><span class="menu-item__price">NPR 280</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Chimichurri Fries</h4><p>Crispy golden fries served with our signature house chimichurri</p></div><span class="menu-item__price">NPR 320</span></div>
+          </div>
+        </div>
+
+        <div class="menu-panel" id="tab-drinks">
+          <div class="menu-items">
+            <div class="menu-item"><div class="menu-item__info"><h4>Fresh Lime Soda</h4><p>Squeezed lime, club soda, black salt and mint</p></div><span class="menu-item__price">NPR 220</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Masala Chai</h4><p>House-blend masala tea with cardamom, ginger and cinnamon</p></div><span class="menu-item__price">NPR 180</span></div>
+            <div class="menu-item menu-item--featured"><div class="menu-item__info"><h4>Smoked Lemonade <span class="menu-item__badge">Signature</span></h4><p>Our original &#8212; lemon, charcoal-smoked syrup, fresh mint</p></div><span class="menu-item__price">NPR 350</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Virgin Mojito</h4><p>Fresh mint, lime, sugar cane juice over crushed ice</p></div><span class="menu-item__price">NPR 320</span></div>
+            <div class="menu-item"><div class="menu-item__info"><h4>Mango Lassi</h4><p>Thick Alphonso mango, yogurt, cardamom &#8212; chilled</p></div><span class="menu-item__price">NPR 280</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="menu-modal__footer">
+        <p>All prices inclusive of applicable taxes. Subject to seasonal availability.</p>
+        <a href="#reservation" class="btn btn--gold" id="menuReserveBtn">Reserve a Table</a>
+      </div>
+
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
